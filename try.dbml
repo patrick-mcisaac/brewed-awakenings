@@ -1,0 +1,38 @@
+
+Table Employees {
+    id int [pk]
+    name varchar
+    email varchar
+    hourlyRate int
+} 
+
+Table Orders {
+    id int [pk]
+    timeStamp int
+    productId int [ref: > Products.id]
+    employeeId int [ref: > Employees.id]
+}
+
+Table Products {
+    id int [pk] 
+    name varchar
+    price int
+    ratings varchar [ref: > Customers.productRate]
+}
+
+Table Locations {
+    id int [pk]
+    name varchar
+    productsId varchar  [ref: > Products.id, note: 'array']
+    emplyees varchar [ref: > Employees.id]
+    recommendations varchar [ref: > Customers.locationRec]
+    cards varchar [ref: > Customers.creditCard, note: 'array']
+}
+
+Table Customers {
+    id int [pk]
+    name varchar
+    creditCard int
+    productRate varchar [note: 'array of products and ratings object']
+    locationRec varchar [note: 'array of location and recs object']
+}

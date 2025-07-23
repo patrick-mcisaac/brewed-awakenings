@@ -4,13 +4,13 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -142.6666,
-    "scrollLeft": -456.5,
+    "scrollTop": -99.0001,
+    "scrollLeft": -339.6667,
     "zoomLevel": 1,
     "show": 293,
     "database": 4,
-    "databaseName": "",
-    "canvasType": "ERD",
+    "databaseName": "Brewed",
+    "canvasType": "@dineug/erd-editor/builtin-visualization",
     "language": 1,
     "tableNameCase": 4,
     "columnNameCase": 2,
@@ -69,7 +69,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1753298457365,
+          "updateAt": 1753304992806,
           "createAt": 1753298051160
         }
       },
@@ -96,7 +96,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1753298457365,
+          "updateAt": 1753304992806,
           "createAt": 1753298215096
         }
       },
@@ -126,8 +126,37 @@
           "color": "#005CFF"
         },
         "meta": {
-          "updateAt": 1753298643962,
+          "updateAt": 1753304992806,
           "createAt": 1753298322802
+        }
+      },
+      "rQJm46l6o6M8FHzNe5k0x": {
+        "id": "rQJm46l6o6M8FHzNe5k0x",
+        "name": "",
+        "comment": "",
+        "columnIds": [
+          "yFkjaX0qvhLR0poR_DbcI",
+          "AgH8sTcnqMdKDA4-rntEK",
+          "xytpszNH79cgt8x5A2W0K",
+          "gLSQmv1wQDsWWucD7TEJL"
+        ],
+        "seqColumnIds": [
+          "yFkjaX0qvhLR0poR_DbcI",
+          "AgH8sTcnqMdKDA4-rntEK",
+          "xytpszNH79cgt8x5A2W0K",
+          "gLSQmv1wQDsWWucD7TEJL"
+        ],
+        "ui": {
+          "x": 625.8334,
+          "y": 203.5,
+          "zIndex": 27,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1753303966614,
+          "createAt": 1753303961326
         }
       }
     },
@@ -371,6 +400,86 @@
           "updateAt": 1753298450281,
           "createAt": 1753298433726
         }
+      },
+      "yFkjaX0qvhLR0poR_DbcI": {
+        "id": "yFkjaX0qvhLR0poR_DbcI",
+        "tableId": "rQJm46l6o6M8FHzNe5k0x",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1753303964295,
+          "createAt": 1753303964295
+        }
+      },
+      "AgH8sTcnqMdKDA4-rntEK": {
+        "id": "AgH8sTcnqMdKDA4-rntEK",
+        "tableId": "rQJm46l6o6M8FHzNe5k0x",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1753303965027,
+          "createAt": 1753303965027
+        }
+      },
+      "xytpszNH79cgt8x5A2W0K": {
+        "id": "xytpszNH79cgt8x5A2W0K",
+        "tableId": "rQJm46l6o6M8FHzNe5k0x",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1753303965834,
+          "createAt": 1753303965834
+        }
+      },
+      "gLSQmv1wQDsWWucD7TEJL": {
+        "id": "gLSQmv1wQDsWWucD7TEJL",
+        "tableId": "rQJm46l6o6M8FHzNe5k0x",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1753303966614,
+          "createAt": 1753303966614
+        }
       }
     },
     "relationshipEntities": {
@@ -426,7 +535,7 @@
           "direction": 8
         },
         "meta": {
-          "updateAt": 1753298396523,
+          "updateAt": 1753300845323,
           "createAt": 1753298396523
         }
       },
