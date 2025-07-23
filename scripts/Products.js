@@ -8,7 +8,11 @@ export const Products = () => {
 
     for (const product of products) {
  
-        html += `<li>${product.name}</li>`
+        html += `<li
+                    data-type="product"
+                    data-price="${product.price}"
+                    data-name="${product.name}"
+                    >${product.name}</li>`
     }
 
     html += "</ul>"
@@ -16,3 +20,15 @@ export const Products = () => {
     return html
 }
 
+
+document.addEventListener(
+    'click', (e) => {
+        const clickedOn = e.target
+
+        if(clickedOn.dataset.type === 'product'){
+            window.alert(`
+                        ${clickedOn.dataset.name} costs
+                        $${clickedOn.dataset.price}`)
+        }
+    } 
+)
