@@ -46,10 +46,9 @@ document.addEventListener(
     
             }
             
+            window.alert(`${wasCLicked.dataset.name} sold ${count} product`)
         }
         //  add a window alert
-        count === 1?
-        window.alert(`${wasCLicked.dataset.name} sold ${count} product`):
-        window.alert(`${wasCLicked.dataset.name} sold ${count} products`)
+        // count === 1?
     }
 )
